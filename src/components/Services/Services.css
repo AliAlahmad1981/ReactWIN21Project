@@ -1,0 +1,49 @@
+.featured {
+    padding: 134px 0 50px 0;
+    width: 100%;
+    max-width: 100%;
+}
+
+.featured h2 {
+    color: #002147;
+    font-family: "Georgia";
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 32px;
+}
+
+.featured .card {
+    margin-bottom: 30px;
+    min-height: 305px;
+    border-color: #bdbdbd;
+}
+
+.featured .card h5 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+    text-align: left;
+}
+
+.featured .card p {
+    font-size: 14px;
+    color: #757575;
+    text-align: left;
+}
+
+.featured .card .card-body {
+    position: relative;
+    padding-top: 36px;
+}
+
+.featured .card .card-body img {
+    position: absolute;
+    left: 16px;
+    top: -45px;
+}
+
+@media (max-width: 400px) {
+    .featured h2 {
+        font-size: 28px;
+    }
+}
