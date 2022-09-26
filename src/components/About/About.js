@@ -13,9 +13,9 @@ const About = (props) => {
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-6 col-md-12 col-sm-12 left-part">
-                            <img src={img} alt="" />
+                            <img src={img} alt="test" />
                                 <div className="left-rectangle">
-                                    <img src={insta} alt="" />
+                                    <img src={insta} alt="test" />
                                 </div>
                                 <div className="client-label text-center position-absolute">
                                     <h6>Kimmie Vo</h6>
@@ -34,7 +34,7 @@ const About = (props) => {
                             <div className="lower-part">
                                 <h4>The courses that Kimmie has taken</h4>
                                 <div className="d-flex specify">
-                                    <img src={spec} alt="" />
+                                    <img src={spec} alt="test" />
                                         <div>
                                             <h5>Modern and Contemporary Art and Design</h5>
                                             <p>
