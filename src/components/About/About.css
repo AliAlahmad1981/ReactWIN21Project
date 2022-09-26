@@ -1,0 +1,116 @@
+.fead-back {
+    padding: 180px 0 90px;
+    width: 100%;
+    max-width: 100%;
+}
+
+.fead-back .left-part img {
+    width: 100%;
+}
+
+.fead-back .left-part .left-rectangle {
+    width: 120px;
+    height: 120px;
+    background-color: #fdc800;
+    position: absolute;
+    top: 0;
+    left: 14px;
+    border-radius: 5px;
+    transform: translate(-25%, -25%);
+}
+
+.fead-back .left-part .left-rectangle img {
+    padding: 10px 0 0 10px;
+}
+
+@media (max-width: 575px) {
+    .fead-back .left-part .left-rectangle {
+        transform: translate(-50%, -50%);
+        left: 50%;
+    }
+}
+
+.fead-back .left-part .client-label {
+    width: 70%;
+    background: #ccc;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 16px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px #000;
+}
+
+.fead-back .left-part .client-label h6 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #212529;
+    margin: 0;
+}
+
+.fead-back .left-part .client-label span {
+    margin: 0;
+    color: #757575;
+    font-size: 14px;
+}
+
+.fead-back .right-part h2 {
+    font-family: "Georgia";
+    font-size: 45px;
+    margin-bottom: 16px;
+}
+
+.fead-back .right-part h2 span {
+    color: #fdc800;
+}
+
+.fead-back .right-part p {
+    font-size: 16px;
+    color: #212529;
+    line-height: 26px;
+    margin-bottom: 36px;
+}
+
+.fead-back .right-part .lower-part h4 {
+    font-weight: bold;
+    color: #002147;
+    margin-bottom: 16px;
+    font-size: 16px;
+}
+
+.fead-back .right-part .lower-part .specify {
+    background-color: #f0f4f9;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.fead-back .right-part .lower-part .specify div {
+    margin-left: 24px;
+}
+
+.fead-back .right-part .lower-part .specify div h5 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #002147;
+    margin-bottom: 8px;
+}
+
+.fead-back .right-part .lower-part .specify div p {
+    margin: 0;
+}
+
+@media (max-width: 991px) {
+    .fead-back .right-part {
+        margin-top: 80px;
+    }
+}
+
+@media (max-width: 425px) {
+    .fead-back .right-part h2 {
+        font-size: 36px;
+    }
+
+    .fead-back .right-part p {
+        font-size: 15px;
+    }
+}
